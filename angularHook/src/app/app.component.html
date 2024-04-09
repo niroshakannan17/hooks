@@ -4,4 +4,8 @@
 
 <button (click)="addTitle()">submit</button>
 
-<app-heading [headingTitle]="titles"></app-heading>
+<br><br>
+
+<input type="checkbox" [(ngModel)]="disableHeading">
+
+<app-heading *ngIf="!disableHeading" [headingTitle]="titles"></app-heading>

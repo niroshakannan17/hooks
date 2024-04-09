@@ -10,3 +10,5 @@ those data can be added(capture) by using ngoninit
 ngdocheck: it mainly used to check any changes happen in a array or object
 simiple check non primative datatype 
 this ngdocheck can call all keybord event and submit
+
+ngondestroy : is called only when the components is killed
