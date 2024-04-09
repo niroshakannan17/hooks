@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularHook';
+  titles:string[]=[];
+
+  addTitle(){
+    this.titles.push(this.title);
+    console.log(this.titles);
+  }
 }

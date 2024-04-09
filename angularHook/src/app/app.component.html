@@ -2,6 +2,6 @@
 
 <input type="text" [(ngModel)]="title">
 
-{{title}}
+<button (click)="addTitle()">submit</button>
 
-<app-heading [headingTitle]="title"></app-heading>
+<app-heading [headingTitle]="titles"></app-heading>
